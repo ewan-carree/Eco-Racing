@@ -13,6 +13,7 @@ public class Vehicle : MonoBehaviour
     public Rigidbody2D frontTire; // frontTire of our vehicle
 
     public float speed; // speed of our vehicle
+    public float maxspeed;      //current maximum speed achievable
     public float vehicleTorque; // couple moteur - for the rotation movement
 
     public float horsePower; // chevaux
